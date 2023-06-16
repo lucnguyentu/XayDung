@@ -6,12 +6,11 @@
         <title>Xay Dung</title>
 
         <link rel="stylesheet" href="./assets/css/index.css" />
-        <link rel="stylesheet" href="./assets/css/footer.css" />
     </head>
     <body>
         <!-- SECTION HEADER  -->
         <header class="header">
-            <iframe src="./components/header.html" style="all: initial; display: block"> HEADER</iframe>
+            <iframe src="./components/header.html"></iframe>
         </header>
         <!-- SECTION HEADER -->
 
@@ -41,13 +40,82 @@
 
         <!-- SECTION CONTACT  -->
         <section class="content-contact">
-            <div class="content-contact-container">CONTENT CONTACT</div>
+            <div id="contact-container" class="contact-container">
+                <div class="contact-wrapper">
+                    <div class="contact-left-content">
+                        <h1>Cùng thảo luận về dự án của bạn</h1>
+                        <p>Vui lòng điền biểu mẫu hoặc gọi chúng tôi để được tư vấn miễn phí tại nhà.</p>
+                        <p style="font-weight: bold">Khu vực cung cấp dịch vụ:</p>
+                        <p>Hà Nội, Tp. Hồ Chí Minh, Hải Phòng, Quảng Ninh</p>
+                        <p>Số 99 Hai Bà Trưng, Cửa Nam, Hoàn Kiếm, Hà Nội</p>
+                        <p>lienhe@web.com</p>
+                        <p>024 3456 7890</p>
+                    </div>
+
+                    <div class="contact-right-content">
+                        <form action="">
+                            <div class="wrap-name-surname wrap-couple">
+                                <div class="input-name wrap-input">
+                                    <span>Tên *</span>
+                                    <div>
+                                        <input type="text" name="name" id="name" required />
+                                    </div>
+                                </div>
+                                <div class="input-surname wrap-input">
+                                    <span>Họ *</span>
+                                    <div>
+                                        <input type="text" name="surname" id="surname" required />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="wrap-email-phone wrap-couple">
+                                <div class="input-email wrap-input">
+                                    <span>Email *</span>
+                                    <div>
+                                        <input type="email" name="email" id="email" required />
+                                    </div>
+                                </div>
+                                <div class="input-phone wrap-input">
+                                    <span>Điện thoại</span>
+                                    <div>
+                                        <input type="text" name="phone" id="phone" required />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="input-address wrap-input">
+                                <span>Địa Chỉ</span>
+                                <div>
+                                    <input type="text" name="address" id="address" />
+                                </div>
+                            </div>
+
+                            <div class="input-topic wrap-input">
+                                <span>Chủ đề</span>
+                                <div>
+                                    <input type="text" name="topic" id="topic" />
+                                </div>
+                            </div>
+
+                            <div class="textarea-message wrap-input">
+                                <span>Gõ tin nhắn của bạn ở đây ...</span>
+                                <div>
+                                    <textarea name="message" id="message" cols="30" rows="4"></textarea>
+                                </div>
+                            </div>
+
+                            <button>Gửi</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </section>
         <!-- SECTION CONTACT  -->
 
         <!-- SECTION FOOTER  -->
         <footer class="footer">
-            <iframe src="./components/footer.html">Footer</iframe>
+            <iframe src="./components/footer.html"></iframe>
         </footer>
         <!-- SECTION FOOTER -->
     </body>
